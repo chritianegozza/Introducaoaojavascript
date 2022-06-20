@@ -8,14 +8,26 @@
 </head>
 <body>
 
-    <h1>Introdução ao javascript</h1>
+    <h1 id="t1">Introdução ao javascript</h1>
+    <h2 id="t2"></h2>
+   <!--  <form id="formulariologin" onsubmit="bemVindo(); return false;">
+        <input type="text" id="nomeUsuario" placeholder="usuário" />
+        <input type="password" placeholder="senha">
+        <button type="submit">Entrar</button>
+    </form> -->
 
-    <script>
-        //vai aparecer um pop up com a mensagem de alert 
-        alert('Olá! Seja bem vindo!');
-        //será mostrado no corpo da imagem
-        document.write('Essa é a nossa primeira videoa aula. ')
+    <p>Escolha uma cor de fundo:</p>
+    <select id="coresFundo" onchange="mudaCorFundo()">
+        <option value="white">Branco</option>
+        <option value="blue">Azul</option>
+        <option value="yellon">Amarelo</option>
+        <option value="red">Vermelho</option>
+        <option value="pink">Rosa</option>
+    </select>
 
-    </script>
+    <!-- para aárecer a função imprimir  -->
+    <button onclick="print()">Imprimir</button>
+
+    <script src="/index.js"></script>
 </body>
 </html>
