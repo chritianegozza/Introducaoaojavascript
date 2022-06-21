@@ -16,7 +16,7 @@
         <button type="submit">Entrar</button>
     </form> -->
 
-    <p>Escolha uma cor de fundo:</p>
+    <label for="Escolha uma cor de fundo:">Escolha uma cor de fundo:
     <select id="coresFundo" onchange="mudaCorFundo()">
         <option value="white">Branco</option>
         <option value="blue">Azul</option>
@@ -24,10 +24,24 @@
         <option value="red">Vermelho</option>
         <option value="pink">Rosa</option>
     </select>
-
+    </label>
+    <br>
+    <br>
     <!-- para aparecer a função imprimir  -->
     <button onclick="print()">Imprimir</button>
 
+    <br>
+    <br>
+
+    <!-- The text field -->
+    <input type="text" placeholder="digite seu texto" id="myInput">
+
+    <!-- The button used to copy the text -->
+    <button onclick="myFunction()">Copy text</button>
+
     <script src="/index.js"></script>
+    <!-- <script src="/script.js"></script> -->
+    <script src="/operadores.js"></script>
 </body>
 </html>
+
