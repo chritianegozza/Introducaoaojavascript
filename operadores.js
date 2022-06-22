@@ -88,5 +88,60 @@ console.log(nota1 == nota2);
 
 console.log(nota1 === nota2);
 
+//operador de negação - not - ! 
+let conectado = true;
+console.log(!conectado);
+console.log(conectado);
+
+
+//Desigualdade !=, !==
+//== igualdade
+//=== igualdade estreita exatamente igual
+
+/*let nota1 = 5;
+let nota2 = '5' 
+
+console.log(nota1 != nota2);
+console.log(nota1 == nota2);
+console.log(nota1 !== nota2);
+console.log(nota1 === nota2);*/
+
+
+//operadores logicos binarios 
+
+/*let a = 2;
+let b = 3;
+let c = 5;
+let d = 6;
+
+console.log((a > b) && (c < b ));// && = and = e */
+
+//operador incremental
+
+// ++
+let x = 10;
+//let a = ++x;
+
+console.log(a);
+console.log(x);
+console.log(++a);
+console.log(a);
+
+
+//operador de descremental
+
+//--
+
+
+
+
+const btn = document.getElementById('elem');
+
+btn.addEventListener('click', () => window.scrollTo({
+  top: 400,
+  behavior: 'smooth',
+}));
+
+
 
 
