@@ -7,10 +7,18 @@ const lista = document.querySelector('#lista'); //pegar pelo id
 const elementoLI = document.createElement('li');
 elementoLI.textContent = 'Um novo item na lista';
 
-lista.className = 'Novoponteiro'; //mudar o css pelo js
+//lista.className = 'Novoponteiro'; //mudar o css pelo js
 
 //lista.setAttribute('class', 'novoponteiro');// outra forma de mudar pelo  css pelo js
 
+
+const botao = document.querySelector('button');
+
+botao.addEventListener('click',function() {
+     lista.remove();
+}
+     
+);
 
 //lista.removeAttribute('class');// mas tem que ter a class no html 
 
